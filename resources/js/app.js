@@ -25,9 +25,6 @@ Vue.use(VueAxios, axios);
 
 
 Vue.component('Welcome', require('./components/Welcome.vue').default);
-Vue.component('SkillsRate', require('./components/SkillsRate.vue').default);
-Vue.component('JobList', require('./components/JobList.vue').default);
-Vue.component('Home', require('./components/Home.vue').default);
 
 
 const app = new Vue({
